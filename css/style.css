@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #343a40;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+/* COVER */
+
+#intro {
+    background: #222 url("../images/cover.gif") center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#inner {
+    width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar-nav li a {
+    color: white;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a.active {
+    color: gray;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* BODY */
+
+h1 {
+    font-size:calc(100% + 4.5vw);
+}
+
+h2 {
+    font-size:calc(100% + 3.0vw);
+    text-align: center;
+}
+
+h3 {
+    font-size:calc(100% + 2.5vw);
+    text-align: center;
+}
+
+p {
+    font-size:calc(100% + 0.5vw);
+}
+
+h4 {
+    font-size:calc(100% + 1.5vw);
+}
+
+h4.black-text, p.black-text {
+    color: rgb(255, 0, 0);
+}
+
+p.info {
+    font-size:calc(100% + 0.3vw);
+    text-align: center;
+}
+
+img {
+    box-sizing: border-box;
+}
+
+/*
+#aboutme, #projects, #contact {
+    padding-top: 30px;
+}
+*/
+
